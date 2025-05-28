@@ -1,0 +1,25 @@
+@import url(swiper/css);
+@import url(swiper/css/navigation);
+@import url(swiper/css/pagination);
+
+:root {
+    --swiper-gap: var(--gap-section, 2.5rem);
+    --swiper-display: grid;
+    --swiper-theme-color: var(--bg-dark, #333333);
+    --swiper-pagination-color: var(--cream-accent, #DED0B6);
+    --swiper-pagination-bullet-inactive-color: var(--bg-dark, #333333);
+    --swiper-pagination-bullet-inactive-opacity: 1;
+    --swiper-pagination-bullet-size: 1.25rem;
+    --swiper-pagination-bullet-horizontal-gap: .75rem;
+    --swiper-navigation-size: 3.25rem;
+    --swiper-navigation-sides-offset: 0;
+}
+
+@media screen and (min-width: 961px) {
+    :root {
+        --swiper-pagination-bullet-horizontal-gap: 1.25rem;
+    }
+}
+
+/*Swipers*/
+
