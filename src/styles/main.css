@@ -9,39 +9,33 @@
     :root {
         /*Colors*/
 
-        /*text*/
-
-        --text-white: #FFFFFF;
-        --text-dark: #333333;
-
-        /*bg*/
-
-        --bg-white: #FFFFFF;
-        --bg-dark: #333333;
-
-        /*others*/
-
-        --cream-light: #FAEED1;
+        --white: #FFFFFF;
+        --gray: #F3F4F9;
+        --dark: #1A1A1A;
+        --blue: #3156E8;
+        --dark-blue: #2241BD;
         --cream-accent: #DED0B6;
+        --turquoise: #16BEBA;
 
         /*Font-sizes*/
 
-        --title: 2rem;
+        --welcome-title: 6.25rem;
+        --title: 3.75rem;
+        --cards-heading: 1.5rem;
         --paragraph: 1rem;
-        --heading: 2.5rem;
 
         /*Settings*/
 
         /*transitions*/
 
         --transition: .25s ease-in-out;
-        --rotate-time: .125s;
-        --move-time: .125s;
 
         /*border-radius*/
 
-        --border-radius: 3.25rem;
-        --border-radius-image: 52px;
+        --border-radius-section: 4.25rem;
+        --border-radius-button: 2.5rem;
+        --border-radius: 1.5rem;
+        --border-radius-image: 24px;
 
         /*gap*/
 
@@ -50,29 +44,21 @@
         --margin-sides: 1.5rem;
     }
 
-    @media screen and (min-width: 1281px) {
+    @media screen and (min-width: 961px) {
         :root {
             /*width*/
-            --width-small: 56vw;
-            --width-small: 56svw;
-            --width-semi: 80vw;
-            --width-semi: 80svw;
-            --width-full: 90vw;
-            --width-full: 90svw;
 
-            /*border-radius*/
-
-            --border-radius: 5rem;
-            --border-radius-image: 80px;
+            --section-width: 85vw;
+            --section-width: 85svw;
         }
     }
 
     html {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 500;
+        font-family: 'Gotham', sans-serif;
+        font-weight: 400;
         font-size: var(--paragraph, 1rem);
-        color: var(--text-dark);
-        background-color: var(--bg-white);
+        color: var(--dark, #1A1A1A);
+        background-color: var(--white, #FFFFFF);
         scroll-behavior: smooth;
         overscroll-behavior: none;
     }

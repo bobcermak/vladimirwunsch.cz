@@ -14,22 +14,24 @@
 <body class="page">
     <div id="smooth-wrapper">
         <div class="page__container" id="smooth-content">
-            <div role="region" aria-label="Důležité oznámení" class="announcement-bar">
-                <p><strong>Poslední místa!</strong> V březnu pro vás mám poslední 5 míst. Nezmeškejte je.</p>
-                <button aria-label="Zavřít oznámení"><i class="fa-solid fa-xmark"></i></button>
+            <div class="page__advertisement" role="region" aria-label="Důležité oznámení">
+                <div class="page__advertisement-wrapper">
+                    <p class="page__advertisement-text"><strong class="page__advertisement-text-strong">Poslední místa!</strong> V březnu pro vás mám posledních 5 míst. Nezmeškejte je.</p>
+                    <button class="page__advertisement-button" aria-label="Zavřít oznámení" id="close-advertisement"><i class="page__advertisement-button-icon fa-solid fa-xmark"></i></button>
+                </div>
             </div>
             <header class="page__header">
-                <h1>Vladimír Wünsch</h1>
+                <a class="page__header-logo-href" href="#"><h1 class="page__header-logo">Vladimír Wünsch</h1></a>
                 <section class="page__header-hero">
                     <div class="page__header-hero-wrapper">
-                        <header>
-                            <h2>Byznys sparing partner</h2>
+                        <header class="page__header-hero-header">
+                            <h2 class="page__header-hero-header-title">Byznys sparing partner</h2>
                             <p>Pomůžu vám zvládnout podnikaní, i když na to jste (zatím) sami.</p>
                         </header>
-                        <div>
-                            <ul>
-                                <li><a class="button" href="#" aria-label="Tlačítko o programu">O programu</a></li>
-                                <li><a class="button" href="#" aria-label="Tlačítko jdeme na to!">Jdeme na to!</a></li>
+                        <div class="page__header-hero-content">
+                            <ul class="page__header-hero-content-buttons">
+                                <li><a class="button button--blue button-icon button-icon--white" href="#" aria-label="Tlačítko o programu">O programu</a></li>
+                                <li><a class="button button--transparent-white button-icon button-icon--white" href="#" aria-label="Tlačítko jdeme na to!">Jdeme na to!</a></li>
                             </ul>
                         </div>
                     </div>
@@ -38,7 +40,7 @@
             <main class="page__content">
                 <section class="page__specialization">
                     <header>
-                        <h2>Oblasti specializace</h2>
+                        <h2 class="long-title"><span class="long-title--hidden">Oblasti</span> specializace</h2>
                     </header>
                     <div>
                         <div>
@@ -244,6 +246,8 @@
                             <ul>
                                 <li><a href="tel:+420602202876">+420 602 202 876</a></li>
                                 <li><a href="mailto:vladimir@wunsch.cz">vladimir@wunsch.cz</a></li>
+                                <li><a class="icon icon--single icon--facebook" href="https://www.facebook.com/kristyna.cermakova.505" target="_blank" aria-label="Facebook"><span class="icon--hidden">Facebook</span></a></li>
+                                <li><a class="icon icon--single icon--instagram" href="https://www.instagram.com/kita.cermakova/" target="_blank" aria-label="Instagram"><span class="icon--hidden">Instagram</span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -270,8 +274,8 @@
             </main>
             <footer class="page__footer">
                 <ul>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
+                    <li><a href="#">Zásady zpracování osobních údajů</a></li>
+                    <li><a href="#">Nastavení cookies</a></li>
                 </ul>
                 <p class="paragraph">© <span id="year"></span> Vladimír Wünsch - Všechna práva vyhrazena | Vytvořil <a href="#" target="_blank"><b>BobCermak</b></a></p>
             </footer>
