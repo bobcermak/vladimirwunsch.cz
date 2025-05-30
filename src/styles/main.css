@@ -11,6 +11,7 @@
 
         --white: #FFFFFF;
         --gray: #F3F4F9;
+        --dark-gray: #F3F4F9;
         --dark: #1A1A1A;
         --blue: #3156E8;
         --dark-blue: #2241BD;
@@ -20,7 +21,7 @@
         /*Font-sizes*/
 
         --welcome-title: 6.25rem;
-        --title: 3.75rem;
+        --title: 3rem;
         --cards-heading: 1.5rem;
         --paragraph: 1rem;
 
@@ -46,6 +47,10 @@
 
     @media screen and (min-width: 961px) {
         :root {
+            /*Font-sizes*/
+
+            --title: 3.75rem;
+
             /*width*/
 
             --section-width: 85vw;

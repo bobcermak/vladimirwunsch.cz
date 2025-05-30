@@ -4,7 +4,7 @@
 
 .button {
     display: inline-block;
-    padding: .75rem 1.5rem;
+    padding: 1.5rem 1.5rem;
     text-decoration: none;
     border-radius: var(--border-radius-button, 2.5rem);
     font-weight: 700;
@@ -110,4 +110,91 @@
 
 .button:hover.button-icon--white::after {
     background-color: var(--blue, #3156E8);
+}
+
+/*page__specialization - specialization-item*/
+
+.specialization-item {
+    display: flex;
+    align-items: start;
+}
+
+.specialization-item::before {
+    content: "";
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+    background-image: url("/public/images/ui/arrow-right-blue.svg"); /* cesta k tvému obrázku */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: middle;
+}
+
+@media screen and (min-width: 961px) {
+    .specialization-item::before {
+        width: 4rem;
+        height: 4rem;
+    }
+}
+
+.specialization-item-container {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 641px) {
+    .specialization-item__text {
+        max-width: 20rem;
+    }
+}
+
+/*Cards*/
+
+/*page__about-me - card-highlight*/
+
+.card-highlight {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: var(--white, #FFFFFF);
+    border-radius: var(--border-radius, 1.5rem);
+    padding: 1.5rem;
+}
+
+.card-highlight__header {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.card-highlight__title-highlight {
+    color: var(--blue, #3156E8);
+}
+
+.card-highlight__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+@media screen and (min-width: 1281px) {
+    .card-highlight, .card-highlight__list{
+        justify-content: space-between;
+        gap: 2.5rem;
+    }
+}
+
+.card-highlight__list-item {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    list-style: none;
+    font-weight: 500;
+}
+
+.card-highlight__list-item::before {
+    content: "✅";
+    display: inline-block;
 }

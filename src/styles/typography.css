@@ -8,6 +8,13 @@
 }
 
 @font-face {
+    font-family: 'Gotham';
+    src: url(./fonts/Gotham-Medium.otf) format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
   font-family: 'Gotham';
   src: url(./fonts/Gotham-Bold.otf) format('opentype');
   font-weight: 700;
@@ -20,10 +27,17 @@
 
 h2, .title {
     font-weight: 700;
-    font-size: var(--title, 3.75rem);
+    font-size: var(--title, 3rem);
     line-height: 1.25;
-    letter-spacing: -.01875rem;
+    letter-spacing: -.015rem;
     margin: 0;
+}
+
+@media screen and (min-width: 961px) {
+    h2, .title {
+        font-size: var(--title, 3.75rem);
+        letter-spacing: -.01875rem;
+    }
 }
 
 .welcome-title {

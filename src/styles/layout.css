@@ -61,56 +61,52 @@
 /*page__header*/
 
 .page__header {
+    position: relative;
+    overflow-x: hidden;
     background-color: var(--dark, #1A1A1A);
     color: var(--white, #FFFFFF);
-    background-size: auto 500px;
-    background-position: -50% bottom;
-    background-repeat: no-repeat;
-    background-image: url(/images/content/original/vladimir-wunsch-hero-image.jpg);
-    background-image: -webkit-image-set(
-        url(/images/content/bckps/vladimir-wunsch-hero-image.avif) type("image/avif"),
-        url(/images/content/bckps/vladimir-wunsch-hero-image.webp) type("image/webp"),
-        url(/images/content/original/vladimir-wunsch-hero-image.jpg) type("image/jpeg")
-    );
-    background-image: image-set(
-        url(/images/content/bckps/vladimir-wunsch-hero-image.avif) type("image/avif"),
-        url(/images/content/bckps/vladimir-wunsch-hero-image.webp) type("image/webp"),
-        url(/images/content/original/vladimir-wunsch-hero-image.jpg) type("image/jpeg")
-    );
-    border-bottom-left-radius: var(--border-radius-section, 4.25rem);
-    border-bottom-right-radius: var(--border-radius-section, 4.25rem);
-}
-
-@media screen and (min-width: 441px) {
-    .page__header {
-        background-size: cover;
-        background-position: 0 bottom;
-    }
-}
-
-@media screen and (min-width: 761px) {
-    .page__header {
-        background-position: -500% bottom;
-    }
-}
-
-@media screen and (min-width: 801px) {
-    .page__header {
-        background-size: auto 500px;
-        background-position: right bottom;
-    }
+    min-height: 110vh;
+    min-height: 110svh;
+    padding-bottom: var(--gap-section, 2.5rem);
+    z-index: 1;
 }
 
 @media screen and (min-width: 961px) {
     .page__header {
-        background-size: contain;
+        border-bottom-left-radius: var(--border-radius-section, 4.25rem);
+        border-bottom-right-radius: var(--border-radius-section, 4.25rem);
+    }
+}
+
+.page__header-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -80%;
+    z-index: -1;
+}
+
+@media screen and (min-width: 541px) {
+    .page__header-image {
+        right: -60%;
+    }
+}
+
+@media screen and (min-width: 641px) {
+    .page__header-image {
+        right: -40%;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .page__header-image {
+        right: -20%;
     }
 }
 
 @media screen and (min-width: 1281px) {
-    .page__header {
-        height: 110vh;
-        height: 110svh;
+    .page__header-image {
+        right: 0;
     }
 }
 
@@ -131,11 +127,11 @@
     }
 }
 
-/*page__header-hero*/
+/*section - page__header-hero*/
 
 .page__header-hero {
     width: var(--section-width);
-    margin: var(--gap-body, 6.25rem) var(--margin-sides, 1.5rem);
+    margin: 1.5rem var(--margin-sides, 1.5rem);
 }
 
 @media screen and (min-width: 961px) {
@@ -160,6 +156,16 @@
     }
 }
 
+.page__header-hero-header-text {
+    max-width: 15rem;
+}
+
+@media screen and (min-width: 541px) {
+    .page__header-hero-header-text {
+        max-width: none;
+    }
+}
+
 .page__header-hero-content-buttons {
     display: flex;
     flex-direction: column;
@@ -180,4 +186,191 @@
     flex-direction: column;
     flex-grow: 1;
     margin: 0;
+}
+
+/*section - page__specialization*/
+
+.page__specialization {
+    width: var(--section-width);
+    margin: var(--gap-body, 6.25rem) var(--margin-sides, 1.5rem);
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 961px) {
+    .page__specialization {
+        margin: var(--gap-body, 6.25rem) auto;
+        margin-bottom: 0;
+    }
+}
+
+.page__specialization-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: var(--gap-section, 2.5rem);
+}
+
+@media screen and (min-width: 641px) {
+    .page__specialization-item {
+        flex-basis: 45%;
+        flex-grow: 1;
+    } 
+}
+
+@media screen and (min-width: 961px) {
+    .page__specialization-item {
+        flex-basis: 30%;
+        flex-grow: 1;
+    } 
+}
+
+/*section - page__about-me*/
+
+.page__about-me {
+   background-color: var(--gray, #F3F4F9);
+}
+
+@media screen and (min-width: 961px) {
+    .page__about-me {
+        border-top-left-radius: var(--border-radius-section, 4.25rem);
+        border-top-right-radius: var(--border-radius-section, 4.25rem);
+    }
+}
+
+.page__about-me-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-body, 6.25rem);
+    width: var(--section-width);
+    margin: 0 var(--margin-sides, 1.5rem);
+    margin-bottom: var(--gap-body, 6.25rem);
+}
+
+@media screen and (min-width: 961px) {
+    .page__about-me-wrapper {
+        margin: 0 auto;
+    }
+}
+
+.page__about-me-header-title {
+    margin-top: var(--gap-body, 6.25rem);
+    margin-bottom: var(--gap-section, 2.5rem);
+}
+
+.page__about-me-header-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.page__about-me-content {
+    display: grid;
+    grid-template-rows: repeat(2, minmax(1fr, 440px));
+    gap: var(--gap-section, 2.5rem);
+}
+
+@media screen and (min-width: 961px) {
+    .page__about-me-content {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: minmax(1fr, 440px);
+    }
+
+    .page__about-me-content-figure {
+        grid-column: 2;
+    }
+}
+
+@media screen and (min-width: 1281px) {
+    .page__about-me-content-figure {
+        grid-column: 2;
+    }
+}
+
+.page__about-me-content-image {
+    border-radius: var(--border-radius-image, 24px);
+    max-height: 440px;
+    object-position: top;
+}
+
+@media screen and (min-width: 961px) {
+    .page__about-me-content-image {
+        max-height: none;
+    }
+}
+
+@media screen and (min-width: 1281px) {
+    .page__about-me-content-image {
+        max-height: 552px;
+    }
+}
+
+.page__about-me-stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--gap-section, 2.5rem);
+}
+
+@media screen and (min-width: 1281px) {
+    .page__about-me-stats {
+        flex-direction: row;
+        justify-content: center;
+        gap: 5rem;
+    }
+}
+
+.page__about-me-stats-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page__about-me-stats-title {
+    color: var(--blue, #3156E8);
+}
+
+@media screen and (min-width: 541px) {
+    .page__about-me-stats-title {
+        font-size: var(--title, 3.75rem);
+    }
+}
+
+/*section - page__cta*/
+
+.page__cta {
+    background-color: var(--blue, #3156E8);
+}
+
+.page__cta-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: var(--section-width);
+    margin: var(--gap-section, 2.5rem) var(--margin-sides, 1.5rem);
+    color: var(--white, #FFFFFF);
+    font-size: 2rem;
+}
+
+.page__cta-title::after {
+    content: "";
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    background-image: url("/public/images/ui/arrow-right-white.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: middle;
+}
+
+@media screen and (min-width: 961px) {
+    .page__cta-title {
+        margin: var(--gap-section, 2.5rem) auto;
+    }
+}
+
+@media screen and (min-width: 441px) {
+    .page__cta-title {
+        font-size: var(--title, 3.75rem);
+    }
 }
