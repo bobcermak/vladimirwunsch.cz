@@ -2,7 +2,7 @@ import './fontawesome.js';
 import './animations.js';
 import './swiper.js';
 
-
+//page__advertisement - close button
 document.addEventListener('DOMContentLoaded', () => {
   const closeBtn = document.getElementById('close-advertisement');
   const adv = document.querySelector('.page__advertisement');
