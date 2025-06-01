@@ -83,18 +83,21 @@
     top: 0;
     bottom: 0;
     right: -80%;
+    left: 0;
     z-index: -1;
 }
 
 @media screen and (min-width: 541px) {
     .page__header-image {
         right: -60%;
+        left: 20%;
     }
 }
 
 @media screen and (min-width: 641px) {
     .page__header-image {
         right: -40%;
+        left: 40%;
     }
 }
 
