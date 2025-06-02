@@ -14,7 +14,7 @@ const swiperAboutMe = new Swiper('.page__about-me-stats-content', {
         el: '.page__about-me-stats-content-swiper-pagination',
     },
     autoplay: {
-        delay: 5000,
+        delay: 10000,
         disableOnInteraction: true,
     },
     breakpoints: {
@@ -38,7 +38,31 @@ const swiperMyCompanies = new Swiper('.page__my-companies-content', {
         el: '.page__my-companies-content-swiper-pagination',
     },
     autoplay: {
-        delay: 5000,
+        delay: 14000,
+        disableOnInteraction: true,
+    },
+    breakpoints: {
+        641: {
+            slidesPerView: 2
+        },
+        1281: {
+            slidesPerView: 3
+        }
+    }
+})
+
+//page__my-companies - swiper
+const swiperReviews = new Swiper('.page__reviews', {
+    modules: [Navigation, Pagination, Autoplay],
+    slidesPerView: 1,
+    spaceBetween: 24,
+    loop: true,
+    pagination: {
+        clickable: true,
+        el: '.page__reviews-swiper-pagination',
+    },
+    autoplay: {
+        delay: 14000,
         disableOnInteraction: true,
     },
     breakpoints: {

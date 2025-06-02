@@ -161,6 +161,7 @@
     background-color: var(--white, #FFFFFF);
     border-radius: var(--border-radius, 1.5rem);
     padding: 1.5rem;
+    border: 2px solid var(--dark-gray, #DEE1F4);
 }
 
 .card-highlight__header {
