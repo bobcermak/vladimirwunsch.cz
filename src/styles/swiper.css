@@ -10,7 +10,6 @@
     --swiper-pagination-bullet-size: 1.25rem;
     --swiper-pagination-bullet-horizontal-gap: .75rem;
     --swiper-navigation-size: 3.25rem;
-    --swiper-navigation-sides-offset: 0;
 }
 
 @media screen and (min-width: 961px) {
