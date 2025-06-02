@@ -119,6 +119,11 @@ section, .section {
     font-size: 1em;
 }
 
+.icon--correct::before {
+    font-family: "Font Awesome 6 Free";
+    content: "\f058";
+}
+
 /*Icons - single*/
 
 .icon--hidden {

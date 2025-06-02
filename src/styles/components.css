@@ -195,6 +195,5 @@
 }
 
 .card-highlight__list-item::before {
-    content: "✅";
-    display: inline-block;
+    color: var(--blue, #3156E8);
 }

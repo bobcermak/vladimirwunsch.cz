@@ -36,22 +36,118 @@
     align-items: center;
 }
 
-/*page__about-me - swiper*/
-
-.page__about-me-stats-swiper-slide {
-    border-radius: var(--border-radius, 1.5rem);
-    border: 2px solid var(--dark-gray, #F3F4F9);
-    background-color: var(--white, #FFFFFF);
-    padding: .5rem;
-}
-
-.page__about-me-stats-swiper-pagination {
+.swiper-pagination {
     position: static;
     margin-top: 1.5rem;
 }
 
+/*page__about-me - swiper*/
+
+.page__about-me-stats-content-swiper-slide {
+    border-radius: var(--border-radius, 1.5rem);
+    border: 2px solid var(--dark-gray, #DEE1F4);
+    background-color: var(--white, #FFFFFF);
+    padding: .5rem;
+}
+
 @media screen and (min-width: 961px) {
-    .page__about-me-stats-swiper-pagination {
+    .page__about-me-stats-content-swiper-pagination {
         margin-bottom: var(--gap-body, 6.25rem);
     }
+}
+
+/*page__my-companies - swiper*/
+
+.page__my-companies-content {
+    margin-top: var(--gap-section, 2.5rem);
+}
+
+.page__my-companies-content-swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    min-height: 25.75rem;
+    color: var(--white, #FFFFFF);
+    text-decoration: none;
+    border-radius: var(--border-radius, 1.5rem);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    container-type:  inline-size;
+}
+
+.page__my-companies-content-swiper-slide-title {
+    background-color: var(--blue, #3156E8);
+    border-radius: var(--border-radius-button, 2.5rem);
+    padding: .5rem 2rem;
+    margin: 1.5rem 1.5rem;
+    margin-bottom: 0;
+}
+
+.page__my-companies-content-swiper-slide-content {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin: 1.5rem 1.5rem;
+    margin-top: 0;
+}
+
+@container (min-width: 312px) {
+    .page__my-companies-content-swiper-slide-title {
+        margin: 2.5rem 2.5rem;
+        margin-bottom: 0;
+    }
+
+    .page__my-companies-content-swiper-slide-content {
+        margin: 2.5rem 2.5rem;
+        margin-top: 0;
+    }
+}
+
+.page__my-companies-content-swiper-slide-content-title {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.page__my-companies-content-swiper-slide--inago {
+    background-image: url(/images/content/original/inago-image.jpg);
+    background-image: -webkit-image-set(
+        url(/images/content/bckps/inago-image.avif) type("image/avif"),
+        url(/images/content/bckps/inago-image.webp) type("image/webp"),
+        url(/images/content/original/inago-image.jpg) type("image/jpeg")
+    );
+    background-image: image-set(
+        url(/images/content/bckps/inago-image.avif) type("image/avif"),
+        url(/images/content/bckps/inago-image.webp) type("image/webp"),
+        url(/images/content/original/inago-image.jpg) type("image/jpeg")
+    );
+}
+
+.page__my-companies-content-swiper-slide--zezem {
+    background-image: url(/images/content/original/zezem-image.jpg);
+    background-image: -webkit-image-set(
+        url(/images/content/bckps/zezem-image.avif) type("image/avif"),
+        url(/images/content/bckps/zezem-image.webp) type("image/webp"),
+        url(/images/content/original/zezem-image.jpg) type("image/jpeg")
+    );
+    background-image: image-set(
+        url(/images/content/bckps/zezem-image.avif) type("image/avif"),
+        url(/images/content/bckps/zezem-image.webp) type("image/webp"),
+        url(/images/content/original/zezem-image.jpg) type("image/jpeg")
+    );
+}
+
+.page__my-companies-content-swiper-slide--mavedo {
+    background-image: url(/images/content/original/mavedo-image.jpg);
+    background-image: -webkit-image-set(
+        url(/images/content/bckps/mavedo-image.avif) type("image/avif"),
+        url(/images/content/bckps/mavedo-image.webp) type("image/webp"),
+        url(/images/content/original/mavedo-image.jpg) type("image/jpeg")
+    );
+    background-image: image-set(
+        url(/images/content/bckps/mavedo-image.avif) type("image/avif"),
+        url(/images/content/bckps/mavedo-image.webp) type("image/webp"),
+        url(/images/content/original/mavedo-image.jpg) type("image/jpeg")
+    );
 }
