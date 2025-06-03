@@ -326,10 +326,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
 }
 
 .page__about-me-stats-title {
     color: var(--blue, #3156E8);
+    line-height: 1;
 }
 
 @media screen and (min-width: 541px) {
@@ -371,6 +373,11 @@
     background-repeat: no-repeat;
     background-position: center;
     vertical-align: middle;
+    transition: transform var(--transition, .25s ease-in-out);
+}
+
+.page__cta-wrapper:hover .page__cta-title::after {
+    transform: translateX(1rem);
 }
 
 @media screen and (min-width: 641px) {
@@ -497,4 +504,181 @@
 
 .page__business-sparing-partner-card-item-title {
     margin: 0;
+}
+
+/*section - page__contact*/
+
+.page__contact {
+    background-color: var(--blue, #3156E8);
+    color: var(--white, #FFFFFF);
+}
+
+@media screen and (min-width: 961px) {
+    .page__contact {
+        border-top-left-radius: var(--border-radius-section, 4.25rem);
+        border-top-right-radius: var(--border-radius-section, 4.25rem);
+    }
+}
+
+.page__contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-section, 2.5rem);
+    width: var(--section-width);
+    margin: var(--gap-body, 6.25rem) var(--margin-sides, 1.5rem);
+}
+
+@media screen and (min-width: 961px) {
+    .page__contact-wrapper {
+        flex-direction: row;
+        justify-content: center;
+        margin: var(--gap-body, 6.25rem) auto;
+    }
+}
+
+@media screen and (min-width: 1281px) {
+    .page__contact-wrapper {
+        gap: 0;
+    }
+}
+
+.page__contact-advertisement {
+    flex-basis: 40%;
+    flex-grow: 1;
+}
+
+.page__contact-header {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.page__contact-header-title {
+    max-width: 30rem;
+}
+
+.page__contact-header-text {
+    max-width: 32rem;
+}
+
+@media screen and (min-width: 1701px) {
+    .page__contact-header-title {
+        max-width: 50rem;
+    }
+
+    .page__contact-header-text {
+        max-width: 50rem;
+    }
+}
+
+.page__contact-information {
+    margin-top: var(--gap-section, 2.5rem);
+}
+
+.page__contact-information-list {
+    display: grid;
+    justify-items: start;
+    justify-content: start;
+    grid-template-columns: repeat(3, auto);
+    gap: 1rem;
+}
+
+.page__contact-information-list-item {
+    list-style: none;
+}
+
+.page__contact-information-list-item-href {
+    transition: color var(--transition, .25s ease-in-out);
+}
+
+.page__contact-information-list-item-href:hover {
+    color: var(--turquoise, #16BEBA);
+}
+
+.page__contact-information-list-item-phone-number, .page__contact-information-list-item-email {
+    grid-column: 1 / span 3;
+}
+
+.page__contact-information-list-item-facebook {
+    grid-column: 1;
+}
+
+.page__contact-information-list-item-instagram {
+    grid-column: 2;
+}
+
+.page__contact-information-list-item-href {
+    text-decoration: none;
+    color: var(--white, #FFFFFF);
+    font-weight: 700;
+    font-size: var(--cards-heading, 1.5rem);
+}
+
+.page__contact-form {
+    flex-basis: 40%;
+    flex-grow: 1;
+}
+
+/*page__footer*/
+
+.page__footer {
+    display: flex;
+    background-color: var(--dark-blue, #2241BD);
+    color: var(--white, #FFFFFF);
+    min-height: 7.5rem;
+}
+
+.page__footer-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: var(--gap-section, 2.5rem);
+    width: var(--section-width);
+    margin: var(--gap-section, 2.5rem) var(--margin-sides, 1.5rem);
+}
+
+@media screen and (min-width: 1281px) {
+    .page__footer-wrapper {
+        flex-direction: row;
+        align-items: center;
+        gap: 0;
+        justify-content: space-between;
+        margin: var(--gap-section, 2.5rem) auto;
+    }
+}
+
+.page__footer-copyright-href {
+    text-decoration: none;
+    color: var(--white, #FFFFFF);
+    transition: color var(--transition, .25s ease-in-out);
+}
+
+.page__footer-copyright-href:hover {
+    color: var(--turquoise, #16BEBA);
+}
+
+.page__footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+@media screen and (min-width: 1281px) {
+    .page__footer-links {
+        flex-direction: row;
+        gap: var(--gap-section, 2.5rem);
+    }
+}
+
+.page__footer-links-item {
+    list-style: none;
+}
+
+.page__footer-links-item-href {
+    text-decoration: none;
+    color: var(--white, #FFFFFF);
+    transition: color var(--transition, .25s ease-in-out);
+}
+
+.page__footer-links-item-href:hover {
+    color: var(--turquoise, #16BEBA);
 }

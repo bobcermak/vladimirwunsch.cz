@@ -47,6 +47,11 @@
     border: 2px solid var(--dark-gray, #DEE1F4);
     background-color: var(--white, #FFFFFF);
     padding: .5rem;
+    transition: border var(--transition, .25s ease-in-out);
+}
+
+.page__about-me-stats-content-swiper-slide:hover {
+    border: 2px solid #3156E8;
 }
 
 @media screen and (min-width: 961px) {
@@ -70,10 +75,33 @@
     color: var(--white, #FFFFFF);
     text-decoration: none;
     border-radius: var(--border-radius, 1.5rem);
+    position: relative;
+    overflow: hidden;
+    container-type:  inline-size;
+}
+
+.page__my-companies-content-swiper-slide::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background-image: inherit;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    container-type:  inline-size;
+    border-radius: inherit;
+    transition: transform var(--transition, .25s ease-in-out);
+    transform: scale(1);
+    pointer-events: none;
+}
+
+.page__my-companies-content-swiper-slide:hover::before {
+    transform: scale(1.2);
+}
+
+.page__my-companies-content-swiper-slide-title, .page__my-companies-content-swiper-slide-content {
+    position: relative;
+    z-index: 1;
 }
 
 .page__my-companies-content-swiper-slide-title {
@@ -94,12 +122,12 @@
 
 @container (min-width: 312px) {
     .page__my-companies-content-swiper-slide-title {
-        margin: 2.5rem 2.5rem;
+        margin: 3rem 2.5rem;
         margin-bottom: 0;
     }
 
     .page__my-companies-content-swiper-slide-content {
-        margin: 2.5rem 2.5rem;
+        margin: 3rem 2.5rem;
         margin-top: 0;
     }
 }
@@ -153,13 +181,20 @@
 
 /*page__reviews - swiper*/
 
+.page__reviews {
+    margin-top: var(--gap-body, 6.25rem);
+    padding: 0 var(--margin-sides, 1.5rem);
+}
+
 .page__reviews-wrapper {
     width: var(--section-width);
-    margin: var(--gap-body, 6.25rem) var(--margin-sides, 1.5rem);
-    margin-bottom: 0;
 }
 
 @media screen and (min-width: 961px) {
+    .page__reviews {
+        margin: 0;
+    }
+    
     .page__reviews-wrapper {
         margin: var(--gap-body, 6.25rem) auto;
         margin-bottom: 0;
@@ -173,9 +208,15 @@
     align-items: start;
     background-color: var(--card-gray, #F6F6F6);
     border-radius: var(--border-radius, 1.5rem);
+    border: 2px solid var(--card-gray, #F6F6F6);
     padding: 1.5rem;
     text-decoration: none;
     color: var(--dark, #1A1A1A);
+    transition: border var(--transition, .25s ease-in-out);
+}
+
+.page__reviews-swiper-slide:hover {
+    border: 2px solid var(--blue, #3156E8);
 }
 
 .page__reviews-swiper-slide-header {

@@ -56,7 +56,7 @@ p, input::placeholder, textarea::placeholder, .paragraph {
 
 /*paragraph--bold*/
 
-b, strong, input::placeholder, textarea::placeholder, .paragraph--bold {
+b, strong, .paragraph--bold {
     font-weight: 700;
 }
 

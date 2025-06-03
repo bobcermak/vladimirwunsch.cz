@@ -6,8 +6,9 @@
     <meta name="referrer" content="strict-origin-when-cross-origin">
     <meta name="description" content="Pomáhám podnikatelům růst díky praktickým zkušenostem z reálného byznysu. Jsem váš byznys sparing partner - podpora ve financích, marketingu, vedení i strategii.">
     <meta name="keywords" content="byznys sparing partner, podnikatelské konzultace, růst firmy, strategie podnikání, vedení firmy, osobní branding, marketing pro podnikatele, finanční řízení firmy, pomoc s podnikáním, mentoring pro podnikatele">
-    <link rel="icon" type="image/png" href="/public/images/ui/favicon.svg">
-    <link rel="apple-touch-icon" href="/public/images/ui/favicon.svg">
+    <link rel="icon" type="image/svg+xml" sizes="16x16" href="/public/images/ui/favicon-16x16.svg">
+    <link rel="icon" type="image/svg+xml" sizes="32x32" href="/public/images/ui/favicon-32x32.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="/public/images/ui/favicon-180x180.png">
     <link rel="stylesheet" href="/src/styles/main.css">
     <title>Vladimír Wünsch | Byznys Sparing Partner - Podpora pro podnikatele</title>
 </head>
@@ -20,7 +21,7 @@
                     <button class="page__advertisement-button" aria-label="Zavřít oznámení" id="close-advertisement"><i class="page__advertisement-button-icon fa-solid fa-xmark"></i></button>
                 </div>
             </div>
-            <header class="page__header">
+            <header class="page__header" id="header">
                 <a class="page__header-logo-href" href="#"><h1 class="page__header-logo">Vladimír Wünsch</h1></a>
                 <section class="page__header-hero">
                     <div class="page__header-hero-wrapper">
@@ -30,8 +31,8 @@
                         </div>
                         <div class="page__header-hero-content">
                             <ul class="page__header-hero-content-buttons">
-                                <li><a class="button button--blue button-icon button-icon--white" href="#" aria-label="Tlačítko o programu">O programu</a></li>
-                                <li><a class="button button--transparent-white button-icon button-icon--white" href="#" aria-label="Tlačítko jdeme na to!">Jdeme na to!</a></li>
+                                <li><a class="button button--blue button-icon button-icon--white" href="#business-sparing-partner" aria-label="Tlačítko o programu">O programu</a></li>
+                                <li><a class="button button--transparent-white button-icon button-icon--white" href="#contact" aria-label="Tlačítko jdeme na to!">Jdeme na to!</a></li>
                             </ul>
                         </div>
                     </div>
@@ -45,7 +46,7 @@
                 </figure>
             </header>
             <main class="page__content">
-                <section class="page__specialization">
+                <section class="page__specialization" id="specialization">
                     <header class="page__specialization-header">
                         <h2 class="long-title"><span class="long-title--hidden">Oblasti</span> specializace</h2>
                     </header>
@@ -88,7 +89,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="page__about-me">
+                <section class="page__about-me" id="about-me">
                     <div class="page__about-me-wrapper">
                         <header class="page__about-me-header">
                             <h2 class="page__about-me-header-title">Něco o mně</h2>
@@ -111,7 +112,7 @@
                                     </ul>
                                 </div>
                                 <footer class="card-highlight__footer">
-                                    <a class="button button--blue button-icon button-icon--white" href="#" aria-label="Tlačítko jdeme na to!">Jdeme na to!</a>
+                                    <a class="button button--blue button-icon button-icon--white" href="#contact" aria-label="Tlačítko jdeme na to!">Jdeme na to!</a>
                                 </footer>
                             </article>
                             <figure class="page__about-me-content-figure">
@@ -134,28 +135,28 @@
                         </div>
                         <div class="page__about-me-stats-content swiper">
                             <div class="page__about-me-stats-content-wrapper swiper-wrapper">
-                                <a class="page__about-me-stats-content-swiper-slide swiper-slide" href="#">
+                                <a class="page__about-me-stats-content-swiper-slide swiper-slide" href="https://forbes.cz/byznys-na-lzicku-pres-skromne-zacatky-ted-jejich-dzem-dobyva-supermarkety/" target="_blank">
                                     <picture>
                                         <source srcset="/images/content/bckps/forbes-article-image.avif" type="image/avif">
                                         <source srcset="/images/content/bckps/forbes-article-image.webp" type="image/webp">
                                         <img class="img-responsive" src="/images/content/original/forbes-article-image.jpg" loading="lazy" width="370" height="442" alt="Vladimír Wünsch - náhled Vladimíra Wünsche ve Forbesu">
                                     </picture>
                                 </a>
-                                <a class="page__about-me-stats-content-swiper-slide swiper-slide" href="#">
+                                <a class="page__about-me-stats-content-swiper-slide swiper-slide" href="https://cc.cz/dzemy-jako-od-babicky-ktera-je-trochu-hipster-zezem-si-nasly-cestu-az-do-regalu-supermarketu/" target="_blank">
                                     <picture>
                                         <source srcset="/images/content/bckps/czechcrunch-article-image.avif" type="image/avif">
                                         <source srcset="/images/content/bckps/czechcrunch-article-image.webp" type="image/webp">
                                         <img class="img-responsive" src="/images/content/original/czechcrunch-article-image.jpg" loading="lazy" width="373" height="463" alt="Vladimír Wünsch - náhled Vladimíra Wünsche v CzechCrunch">
                                     </picture>
                                 </a>
-                                <a class="page__about-me-stats-content-swiper-slide swiper-slide" href="#">
+                                <a class="page__about-me-stats-content-swiper-slide swiper-slide" href="https://cc.cz/dzemy-jako-od-babicky-ktera-je-trochu-hipster-zezem-si-nasly-cestu-az-do-regalu-supermarketu/" target="_blank">
                                     <picture>
                                         <source srcset="/images/content/bckps/czechcrunch-article-image.avif" type="image/avif">
                                         <source srcset="/images/content/bckps/czechcrunch-article-image.webp" type="image/webp">
                                         <img class="img-responsive" src="/images/content/original/czechcrunch-article-image.jpg" loading="lazy" width="373" height="463" alt="Vladimír Wünsch - náhled Vladimíra Wünsche v CzechCrunch">
                                     </picture>
                                 </a>
-                                <a class="page__about-me-stats-content-swiper-slide swiper-slide" href="#">
+                                <a class="page__about-me-stats-content-swiper-slide swiper-slide" href="https://forbes.cz/byznys-na-lzicku-pres-skromne-zacatky-ted-jejich-dzem-dobyva-supermarkety/" target="_blank">
                                     <picture>
                                         <source srcset="/images/content/bckps/forbes-article-image.avif" type="image/avif">
                                         <source srcset="/images/content/bckps/forbes-article-image.webp" type="image/webp">
@@ -167,33 +168,33 @@
                         </div>
                     </div>
                 </section>
-                <div class="page__cta">
-                    <a class="page__cta-wrapper" href="#">
+                <div class="page__cta" id="cta">
+                    <a class="page__cta-wrapper" href="#business-sparing-partner" aria-label="Tlačítko chci poradit s businessem">
                         <h2 class="page__cta-title">Chci poradit s businessem</h2>
                     </a>
                 </div>
-                <section class="page__my-companies">
+                <section class="page__my-companies" id="my-companies">
                     <header class="page__my-companies-header">
                         <h2 class="long-title"><span class="long-title--hidden">Mé </span>společnosti</h2>
                         <p>Věřím jen věcem, které si sám projdu. <b>I proto jsem nebudoval teorie, ale firmy</b>. Každá z mých společností vznikla z potřeby něco zlepšit - a každá mě naučila něco, co dnes předávám dál.</p>
                     </header>
                     <div class="page__my-companies-content swiper">
                         <div class="page__my-companies-content-wrapper swiper-wrapper">
-                            <a class="page__my-companies-content-swiper-slide page__my-companies-content-swiper-slide--inago swiper-slide" href="#">
+                            <a class="page__my-companies-content-swiper-slide page__my-companies-content-swiper-slide--inago swiper-slide" href="https://inago.cz/" target="_blank">
                                 <h3 class="page__my-companies-content-swiper-slide-title">Marketing</h3>
                                 <div class="page__my-companies-content-swiper-slide-content">
                                     <h4 class="page__my-companies-content-swiper-slide-content-title">Inago</h4>
                                     <p>Marketingová agentura, kterou jsme postavili na reálných výsledcích, ne na prezentacích. Pomáháme značkám růst, prodávat a být vidět - od malých podniků po velké nadnárodní společnosti.</p>
                                 </div>
                             </a>
-                            <a class="page__my-companies-content-swiper-slide page__my-companies-content-swiper-slide--zezem swiper-slide" href="#">
+                            <a class="page__my-companies-content-swiper-slide page__my-companies-content-swiper-slide--zezem swiper-slide" href="https://www.zezem.cz/" target="_blank">
                                 <h3 class="page__my-companies-content-swiper-slide-title">Potraviny</h3>
                                 <div class="page__my-companies-content-swiper-slide-content">
                                     <h4 class="page__my-companies-content-swiper-slide-content-title">Zezem</h4>
                                     <p>Značka potravin, která vznikla z lásky k poctivým surovinám. Džemy, sirupy a medy vyrábíme ručně a s důrazem na chuť i kvalitu. Díky Zezemu chápu, co opravdu znamená budovat lovebrand.</p>
                                 </div>
                             </a>
-                            <a class="page__my-companies-content-swiper-slide page__my-companies-content-swiper-slide--mavedo swiper-slide" href="#">
+                            <a class="page__my-companies-content-swiper-slide page__my-companies-content-swiper-slide--mavedo swiper-slide" href="https://mavedo.cz/" target="_blank">
                                 <h3 class="page__my-companies-content-swiper-slide-title">Účetnictví</h3>
                                 <div class="page__my-companies-content-swiper-slide-content">
                                     <h4 class="page__my-companies-content-swiper-slide-content-title">Mavedo</h4>
@@ -204,7 +205,7 @@
                         <div class="page__my-companies-content-swiper-pagination swiper-pagination"></div>
                     </div>
                 </section>
-                <section class="page__business-sparing-partner">
+                <section class="page__business-sparing-partner" id="business-sparing-partner">
                     <div class="page__business-sparing-partner-wrapper">
                         <div class="page__business-sparing-partner-information">
                             <header class="page__business-sparing-partner-header">
@@ -213,7 +214,7 @@
                             </header>
                             <div class="page__business-sparing-partner-content">
                                 <p class="page__business-sparing-partner-content-text"><strong class="page__business-sparing-partner-content-text-strong">9.900 Kč</strong> / měsíčně</p>
-                                <a class="button button--blue button-icon button-icon--white long-title" href="#" aria-label="Tlačítko Chci nezávazný telefonát"><span class="long-title--hidden">Chci nezávazný </span> telefonát</a>
+                                <a class="button button--blue button-icon button-icon--white long-title" href="#contact" aria-label="Tlačítko Chci nezávazný telefonát"><span class="long-title--hidden">Chci nezávazný </span> telefonát</a>
                             </div>
                         </div>
                         <div class="page__business-sparing-partner-card card-highlight">
@@ -249,9 +250,9 @@
                         </div>
                     </div>
                 </section>
-                <div class="page__reviews swiper">
+                <div class="page__reviews swiper" id="reviews">
                     <div class="page__reviews-wrapper swiper-wrapper">
-                        <a class="page__reviews-swiper-slide swiper-slide" href="#">
+                        <a class="page__reviews-swiper-slide swiper-slide" href="#" target="_blank">
                             <div class="page__reviews-swiper-slide-header">
                                 <figure class="page__reviews-swiper-slide-header-image">
                                     <picture>
@@ -273,7 +274,7 @@
                                 <p class="page__reviews-swiper-slide-content-read-more">Číst více</p>
                             </div>
                         </a>
-                        <a class="page__reviews-swiper-slide swiper-slide" href="#">
+                        <a class="page__reviews-swiper-slide swiper-slide" href="#" target="_blank">
                             <div class="page__reviews-swiper-slide-header">
                                 <figure class="page__reviews-swiper-slide-header-image">
                                     <picture>
@@ -295,7 +296,7 @@
                                 <p class="page__reviews-swiper-slide-content-read-more">Číst více</p>
                             </div>
                         </a>
-                        <a class="page__reviews-swiper-slide swiper-slide" href="#">
+                        <a class="page__reviews-swiper-slide swiper-slide" href="#" target="_blank">
                             <div class="page__reviews-swiper-slide-header">
                                 <figure class="page__reviews-swiper-slide-header-image">
                                     <picture>
@@ -317,7 +318,7 @@
                                 <p class="page__reviews-swiper-slide-content-read-more">Číst více</p>
                             </div>
                         </a>
-                        <a class="page__reviews-swiper-slide swiper-slide" href="#">
+                        <a class="page__reviews-swiper-slide swiper-slide" href="#" target="_blank">
                             <div class="page__reviews-swiper-slide-header">
                                 <figure class="page__reviews-swiper-slide-header-image">
                                     <picture>
@@ -342,48 +343,52 @@
                     </div>
                     <div class="page__reviews-swiper-pagination swiper-pagination"></div>
                 </div>
-                <section class="page__contact">
-                    <div>
-                        <header>
-                            <h2>Jednoduše mi napište nebo zavolejte</h2>
-                            <p>Mám za sebou roky praxe v podnikání i vedení firem. Vím, co funguje - a co jsou jen teorie.</p>
-                        </header>
-                        <div>
-                            <ul>
-                                <li><a href="tel:+420602202876">+420 602 202 876</a></li>
-                                <li><a href="mailto:vladimir@wunsch.cz">vladimir@wunsch.cz</a></li>
-                                <li><a class="icon icon--single icon--facebook" href="https://www.facebook.com/kristyna.cermakova.505" target="_blank" aria-label="Facebook"><span class="icon--hidden">Facebook</span></a></li>
-                                <li><a class="icon icon--single icon--instagram" href="https://www.instagram.com/kita.cermakova/" target="_blank" aria-label="Instagram"><span class="icon--hidden">Instagram</span></a></li>
-                            </ul>
+                <section class="page__contact" id="contact">
+                    <div class="page__contact-wrapper">
+                        <div class="page__contact-advertisement">
+                            <header class="page__contact-header">
+                                <h2 class="page__contact-header-title">Jednoduše mi napište nebo zavolejte</h2>
+                                <p class="page__contact-header-text">Mám za sebou roky praxe v podnikání i vedení firem. Vím, co funguje - a co jsou jen teorie.</p>
+                            </header>
+                            <div class="page__contact-information">
+                                <ul class="page__contact-information-list">
+                                    <li class="page__contact-information-list-item page__contact-information-list-item-phone-number"><a class="page__contact-information-list-item-href" href="tel:+420602202876" target="_blank">+420 602 202 876</a></li>
+                                    <li class="page__contact-information-list-item page__contact-information-list-item-email"><a class="page__contact-information-list-item-href" href="mailto:vladimir@wunsch.cz" target="_blank">vladimir@wunsch.cz</a></li>
+                                    <li class="page__contact-information-list-item page__contact-information-list-item-facebook"><a class="page__contact-information-list-item-href icon icon--single icon--facebook" href="https://www.facebook.com/vlada.wunsch/?locale=cs_CZ" target="_blank" aria-label="Facebook"><span class="page__contact-information-list-item-href icon--hidden">Facebook</span></a></li>
+                                    <li class="page__contact-information-list-item page__contact-information-list-item-instagram"><a class="page__contact-information-list-item-href icon icon--single icon--instagram" href="https://www.instagram.com/vladimir_wunsch/" target="_blank" aria-label="Instagram"><span class="icon--hidden">Instagram</span></a></li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <form class="form__container" action="https://formspree.io/f/xyyrjawd" method="post">
-                            <div class="form__name">
-                                <input class="form__input" type="text" id="first-name" name="Jméno" placeholder="Jméno" required>
-                                <input class="form__input" type="text" id="last-name" name="Přijmení" placeholder="Přijmení" required>
-                            </div>
-                            <div class="form__contact">
-                                <input class="form__input" type="email" id="email" name="E-mail" placeholder="E-mail" required>
-                                <input class="form__input" type="tel" id="phone" name="Telefon" placeholder="Telefon" required>
-                            </div>
-                            <div>
-                                <textarea class="form__textarea" id="message" name="Zpráva" placeholder="Zpráva" required></textarea>
-                            </div>
-                            <div>
-                                <button class="form__button button" type="submit" aria-label="Tlačítko odeslat">Odeslat</button>
-                                <p class="form__gdpr">Odesláním souhlasíte se zpracováním osobních údajů dle <a href="/gdpr" target="_blank">zásad ochrany osobních údajů</a>.</p>
-                            </div>
-                        </form>
+                        <div class="page__contact-form">
+                            <form class="page__contact-form-container form" action="https://formspree.io/f/xyyrjawd" method="post" autocomplete="on">
+                                <div class="form__name">
+                                    <input class="form__input" type="text" id="first-name" name="Jméno" placeholder="Jméno" required autocomplete="given-name">
+                                    <input class="form__input" type="text" id="last-name" name="Přijmení" placeholder="Přijmení" required autocomplete="family-name">
+                                </div>
+                                <div class="form__contact">
+                                    <input class="form__input" type="email" id="email" name="E-mail" placeholder="E-mail" required autocomplete="email">
+                                    <input class="form__input" type="tel" id="phone" name="Telefon" placeholder="Telefon" required autocomplete="tel">
+                                </div>
+                                <div class="form__message">
+                                    <textarea class="form__textarea" id="message" name="Zpráva" placeholder="Zpráva" required autocomplete="off"></textarea>
+                                </div>
+                                <div class="form__submit">
+                                    <button class="form__button button button--turquoise" type="submit" aria-label="Tlačítko odeslat">Odeslat</button>
+                                    <p class="form__gdpr">Odeslání souhlasíte se zpracováním osobních údajů dle <a class="form__gdpr-href" href="#" target="_blank">zásad ochrany osobních údajů</a>.</p>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </section>
             </main>
-            <footer class="page__footer">
-                <ul>
-                    <li><a href="#">Zásady zpracování osobních údajů</a></li>
-                    <li><a href="#">Nastavení cookies</a></li>
-                </ul>
-                <p class="paragraph">© <span id="year"></span> Vladimír Wünsch - Všechna práva vyhrazena | Vytvořil <a href="#" target="_blank"><b>BobCermak</b></a></p>
+            <footer class="page__footer" id="footer">   
+                <div class="page__footer-wrapper">
+                    <p class="page__footer-copyright paragraph">© <span id="year"></span> Vladimír Wünsch - Všechna práva vyhrazena | Vytvořil <a class="page__footer-copyright-href" href="#" target="_blank">BobCermak</a></p>
+                    <ul class="page__footer-links">
+                        <li class="page__footer-links-item"><a class="page__footer-links-item-href" href="#">Zásady zpracování osobních údajů</a></li>
+                        <li class="page__footer-links-item"><a class="page__footer-links-item-href" href="#">Nastavení cookies</a></li>
+                    </ul>
+                </div>
             </footer>
         </div>
     </div>
