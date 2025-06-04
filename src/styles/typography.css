@@ -103,7 +103,7 @@ li:has(.button) {
 }
 
 section, .section {
-    margin-top: var(--gap-body, 6.25rem);
+    margin-top: var(--gap-body, 5rem);
 }
 
 /*Icons - normal*/
@@ -120,8 +120,7 @@ section, .section {
 }
 
 .icon--correct::before {
-    font-family: "Font Awesome 6 Free";
-    content: "\f058";
+    content: "✅";
 }
 
 /*Icons - single*/

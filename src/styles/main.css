@@ -41,7 +41,7 @@
 
         /*gap*/
 
-        --gap-body: 6.25rem;
+        --gap-body: 5rem;
         --gap-section: 2.5rem;
         --margin-sides: 1.5rem;
     }
@@ -56,6 +56,10 @@
 
             --section-width: 85vw;
             --section-width: 85svw;
+
+            /*gap*/
+
+            --gap-body: 6.25rem;
         }
     }
 

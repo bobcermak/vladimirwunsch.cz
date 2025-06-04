@@ -34,8 +34,16 @@
     }
 }
 
-.page__advertisement-text-strong {
-    display: block;
+.page__advertisement-text {
+    font-size: .75rem;
+    line-height: 1.25;
+}
+
+@media screen and (min-width: 361px) {
+    .page__advertisement-text {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
 }
 
 @media screen and (min-width: 761px) {
@@ -139,7 +147,7 @@
 
 @media screen and (min-width: 961px) {
     .page__header-hero {
-        margin: var(--gap-body, 6.25rem) auto;
+        margin: var(--gap-body, 5rem) auto;
     }
 }
 
@@ -195,23 +203,28 @@
 
 .page__specialization {
     width: var(--section-width);
-    margin: var(--gap-body, 6.25rem) var(--margin-sides, 1.5rem);
+    margin: var(--gap-body, 5rem) var(--margin-sides, 1.5rem);
     margin-bottom: 0;
 }
 
 @media screen and (min-width: 961px) {
     .page__specialization {
-        margin: var(--gap-body, 6.25rem) auto;
+        margin: var(--gap-body, 5rem) auto;
         margin-bottom: 0;
     }
 }
 
 .page__specialization-content {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 1.5rem;
     margin-top: 1.5rem;
 }
+
+.page__specialization-item {
+    flex-basis: 90%;
+} 
 
 @media screen and (min-width: 641px) {
     .page__specialization-item {
@@ -243,10 +256,10 @@
 .page__about-me-wrapper {
     display: flex;
     flex-direction: column;
-    gap: var(--gap-body, 6.25rem);
+    gap: var(--gap-body, 5rem);
     width: var(--section-width);
     margin: 0 var(--margin-sides, 1.5rem);
-    margin-bottom: var(--gap-body, 6.25rem);
+    margin-bottom: var(--gap-body, 5rem);
 }
 
 @media screen and (min-width: 961px) {
@@ -256,7 +269,7 @@
 }
 
 .page__about-me-header-title {
-    margin-top: var(--gap-body, 6.25rem);
+    margin-top: var(--gap-body, 5rem);
     margin-bottom: 1.5rem;
 }
 
@@ -303,7 +316,13 @@
 
 @media screen and (min-width: 1281px) {
     .page__about-me-content-image {
-        max-height: 552px;
+        max-height: 700px;
+    }
+}
+
+@media screen and (min-width: 1501px) {
+    .page__about-me-content-image {
+        max-height: 600px;
     }
 }
 
@@ -402,12 +421,12 @@
 
 .page__my-companies {
     width: var(--section-width);
-    margin: var(--gap-body, 6.25rem) var(--margin-sides, 1.5rem);
+    margin: var(--gap-body, 5rem) var(--margin-sides, 1.5rem);
 }
 
 @media screen and (min-width: 961px) {
     .page__my-companies {
-        margin: var(--gap-body, 6.25rem) auto;
+        margin: var(--gap-body, 5rem) auto;
     }
 }
 
@@ -422,7 +441,7 @@
 .page__business-sparing-partner {
     background-color: var(--gray, #F3F4F9);
     margin-top: 0;
-    padding-top: var(--gap-body, 6.25rem);
+    padding-top: var(--gap-body, 5rem);
 }
 
 @media screen and (min-width: 961px) {
@@ -438,7 +457,7 @@
     gap: var(--gap-section, 2.5rem);
     width: var(--section-width);
     margin: 0 var(--margin-sides, 1.5rem);
-    margin-bottom: var(--gap-body, 6.25rem);
+    margin-bottom: var(--gap-body, 5rem);
 }
 
 @media screen and (min-width: 961px) {
@@ -446,7 +465,7 @@
         flex-direction: row;
         gap: 5rem;
         margin: 0 auto;
-        margin-bottom: var(--gap-body, 6.25rem);
+        margin-bottom: var(--gap-body, 5rem);
         align-items: start;
     }
 
@@ -489,11 +508,6 @@
     gap: 1rem;
 }
 
-.page__business-sparing-partner-card-item {
-    display: flex;
-    align-items: center;
-}
-
 .page__business-sparing-partner-card-item::before {
     color: var(--blue, #3156E8);
 }
@@ -525,14 +539,14 @@
     flex-direction: column;
     gap: var(--gap-section, 2.5rem);
     width: var(--section-width);
-    margin: var(--gap-body, 6.25rem) var(--margin-sides, 1.5rem);
+    margin: var(--gap-body, 5rem) var(--margin-sides, 1.5rem);
 }
 
 @media screen and (min-width: 961px) {
     .page__contact-wrapper {
         flex-direction: row;
         justify-content: center;
-        margin: var(--gap-body, 6.25rem) auto;
+        margin: var(--gap-body, 5rem) auto;
     }
 }
 
