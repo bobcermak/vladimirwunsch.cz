@@ -382,6 +382,28 @@
     font-size: 2rem;
 }
 
+.page__cta-title {
+    --cta-after-x: -50px;
+}
+
+@media screen and (min-width: 541px) {
+    .page__cta-title {
+        --cta-after-x: 0;
+    }
+}
+
+@media screen and (min-width: 761px) {
+    .page__cta-title {
+        --cta-after-x: -100px;
+    }
+}
+
+@media screen and (min-width: 961px) {
+    .page__cta-title {
+        --cta-after-x: -200px;
+    }
+}
+
 .page__cta-title::after {
     content: "";
     display: inline-block;
@@ -392,6 +414,7 @@
     background-repeat: no-repeat;
     background-position: center;
     vertical-align: middle;
+    translate: var(--cta-after-x, 0) 0;
     transition: transform var(--transition, .25s ease-in-out);
 }
 
