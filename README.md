@@ -1,6 +1,6 @@
 # Vladimír Wünsch | Byznys Sparing Partner - Podpora pro podnikatele
 
-![alexandra-abertamy-mockup](/public/images/original/alexandra-abertamy-mockup.png)
+![vladimirwunsch-mockup](/public/images/original/vladimirwunsch-mockup.png)
 
 ---
 
