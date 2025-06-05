@@ -1,6 +1,6 @@
 # Vladimír Wünsch | Byznys Sparing Partner - Podpora pro podnikatele
 
-![vladimirwunsch-mockup](/public/images/original/vladimirwunsch-mockup.png)
+![vladimirwunsch-mockup](/public/images/content/original/vladimirwunsch-mockup.png)
 
 ---
 
