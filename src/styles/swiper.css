@@ -42,6 +42,16 @@
 
 /*page__about-me - swiper*/
 
+.page__about-me-stats-content {
+    padding: 0 var(--margin-sides, 1.5rem);
+}
+
+@media screen and (min-width: 961px) {
+    .page__about-me-stats-content {
+        padding: 0;
+    }
+}
+
 .page__about-me-stats-content-swiper-slide {
     border-radius: var(--border-radius, 1.5rem);
     border: 2px solid var(--dark-gray, #DEE1F4);
