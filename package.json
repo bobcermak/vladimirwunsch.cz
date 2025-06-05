@@ -1,5 +1,5 @@
 {
-  "name": "vladimir-wunsch",
+  "name": "vladimirwunsch",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "vite build --base=/vladimir-wunsch/ && gh-pages -d dist -o origin"
+    "deploy": "vite build --base=/vladimirwunsch/ && gh-pages -d dist -o origin"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0",
