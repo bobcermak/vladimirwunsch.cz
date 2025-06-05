@@ -11,8 +11,6 @@ Tento projekt je chráněn omezenou licencí. Kód smí být použit pouze pro r
 
 Klient má neomezená práva k použití, modifikaci a distribuci kódu pro vlastní účely, včetně komerčního a produkčního využití.
 
-Porušení těchto podmínek může vést k právním důsledkům.
-
 
 Podrobnosti naleznete v souboru [LICENSE](LICENSE.txt).
 
