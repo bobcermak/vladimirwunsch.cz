@@ -716,3 +716,43 @@
 .page__footer-links-item-href:hover {
     color: var(--turquoise, #16BEBA);
 }
+
+/*main - 404.html*/
+
+.notfound-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    background-color: #2241BD;
+}
+
+.notfound-title {
+    font-size: 4.375rem;
+    line-height: 1;
+}
+
+.notfound-subtitle {
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.notfound-text {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.notfound-link {
+    font-size: 1.25rem;
+    text-decoration: underline;
+    text-underline-offset: 0.125rem;
+    color: #701a75;
+    transition: color 0.2s;
+}
+
+.notfound-link:hover {
+    color: black;
+}
