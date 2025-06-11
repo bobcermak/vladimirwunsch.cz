@@ -127,8 +127,8 @@ section, .section {
 
 .icon--svg {
     display: inline-block;
-    width: 1em;
-    height: 1em;
+    width: 1rem;
+    height: 1rem;
 }
 
 .page__contact-information-list-item-href-facebook {
