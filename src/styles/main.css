@@ -94,8 +94,8 @@
     /*svg - responsive*/
 
     .svg-responsive {
+        display: block;
         width: 100%;
         height: auto;
-        display: block;
     }
 }
