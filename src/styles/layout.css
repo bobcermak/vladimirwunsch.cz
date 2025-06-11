@@ -630,16 +630,28 @@
     color: var(--turquoise, #16BEBA);
 }
 
-.page__contact-information-list-item-phone-number, .page__contact-information-list-item-email {
+.page__contact-information-list-item-href--pfacebook {
+    transition: fill var(--transition, .25s ease-in-out);
+}
+
+.page__contact-information-list-item-href--facebook:hover {
+    fill: var(--turquoise, #16BEBA);
+}
+
+.page__contact-information-list-item--phone-number, .page__contact-information-list-item--email {
     grid-column: 1 / span 3;
 }
 
-.page__contact-information-list-item-facebook {
+.page__contact-information-list-item--facebook {
     grid-column: 1;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
-.page__contact-information-list-item-instagram {
+.page__contact-information-list-item--instagram {
     grid-column: 2;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .page__contact-information-list-item-href {
