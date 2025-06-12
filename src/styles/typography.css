@@ -122,9 +122,3 @@ section, .section {
 .icon--correct::before {
     content: "✅";
 }
-
-/*Icons - svg*/
-
-.icon--svg {
-    display: inline-block;
-}
