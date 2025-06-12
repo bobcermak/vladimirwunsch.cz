@@ -630,12 +630,21 @@
     color: var(--turquoise, #16BEBA);
 }
 
-.page__contact-information-list-item-href--pfacebook {
+.page__contact-information-list-item-href--facebook {
     transition: fill var(--transition, .25s ease-in-out);
 }
 
 .page__contact-information-list-item-href--facebook:hover {
     fill: var(--turquoise, #16BEBA);
+}
+
+.page__contact-information-list-item-href--instagram {
+    stroke: var(--white, #FFFFFF);
+    transition: stroke var(--transition, .25s ease-in-out);
+}
+
+.page__contact-information-list-item-href--instagram:hover {
+    stroke: var(--turquoise, #16BEBA);
 }
 
 .page__contact-information-list-item--phone-number, .page__contact-information-list-item--email {
