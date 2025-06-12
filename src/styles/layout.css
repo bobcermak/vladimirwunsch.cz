@@ -631,6 +631,8 @@
 }
 
 .page__contact-information-list-item-href--facebook {
+    padding: .5rem;
+    padding-left: 0;
     fill: var(--white, #FFFFFF);
     transition: fill var(--transition, .25s ease-in-out);
 }
@@ -640,6 +642,7 @@
 }
 
 .page__contact-information-list-item-href--instagram {
+    padding: .5rem;
     fill: none;
     stroke: var(--white, #FFFFFF);
     transition: stroke var(--transition, .25s ease-in-out);
