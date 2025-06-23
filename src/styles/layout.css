@@ -90,14 +90,21 @@
     position: absolute;
     top: 0;
     bottom: 0;
-    right: -80%;
+    right: -130%;
     left: 0;
     z-index: -1;
 }
 
+@media screen and (min-width: 361px) {
+    .page__header-image {
+        right: -100%;
+        left: 20%;
+    }
+}
+
 @media screen and (min-width: 541px) {
     .page__header-image {
-        right: -60%;
+        right: -90%;
         left: 20%;
     }
 }
@@ -118,6 +125,7 @@
 @media screen and (min-width: 1281px) {
     .page__header-image {
         right: 0;
+        left: 50%;
     }
 }
 
