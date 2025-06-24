@@ -51,7 +51,7 @@ const swiperMyCompanies = new Swiper('.page__my-companies-content', {
     }
 })
 
-//page__my-companies - swiper
+//page__reviews - swiper
 const swiperReviews = new Swiper('.page__reviews', {
     modules: [Navigation, Pagination, Autoplay],
     slidesPerView: 1,
