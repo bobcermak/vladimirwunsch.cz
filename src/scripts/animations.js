@@ -89,7 +89,7 @@ gsap.fromTo(
             trigger: ".page__about-me-content-highlight",
             start: "top 120%",
             end: "top 0",
-            scrub: true,
+            scrub: 1,
             toggleActions: "play reverse play reverse"
         }
     }
@@ -105,7 +105,7 @@ gsap.fromTo(
             trigger: ".page__about-me-content-figure",
             start: "top 120%",
             end: "top 0",
-            scrub: true,
+            scrub: 1,
         }
     }
 );
