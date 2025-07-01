@@ -5,13 +5,13 @@ import '/src/styles/swiper.css';
 
 //page__about-me - swiper
 const swiperAboutMe = new Swiper('.page__about-me-stats-content', {
-    modules: [Navigation, Pagination, Autoplay],
+    modules: [Navigation, Autoplay],
     slidesPerView: 1,
     spaceBetween: 24,
     loop: true,
-    pagination: {
-        clickable: true,
-        el: '.page__about-me-stats-content-swiper-pagination',
+    navigation: {
+        nextEl: '.page__about-me-stats-content-button-next',
+        prevEl: '.page__about-me-stats-content-button-prev',
     },
     autoplay: {
         delay: 10000,
@@ -29,13 +29,13 @@ const swiperAboutMe = new Swiper('.page__about-me-stats-content', {
 
 //page__my-companies - swiper
 const swiperMyCompanies = new Swiper('.page__my-companies-content', {
-    modules: [Navigation, Pagination, Autoplay],
+    modules: [Navigation, Autoplay],
     slidesPerView: 1,
     spaceBetween: 24,
     loop: true,
-    pagination: {
-        clickable: true,
-        el: '.page__my-companies-content-swiper-pagination',
+    navigation: {
+        nextEl: '.page__my-companies-content-button-next',
+        prevEl: '.page__my-companies-content-button-prev',
     },
     autoplay: {
         delay: 14000,
@@ -53,13 +53,13 @@ const swiperMyCompanies = new Swiper('.page__my-companies-content', {
 
 //page__reviews - swiper
 const swiperReviews = new Swiper('.page__reviews', {
-    modules: [Navigation, Pagination, Autoplay],
+    modules: [Navigation, Autoplay],
     slidesPerView: 1,
     spaceBetween: 24,
     loop: true,
-    pagination: {
-        clickable: true,
-        el: '.page__reviews-swiper-pagination',
+    navigation: {
+        nextEl: '.page__reviews-button-next',
+        prevEl: '.page__reviews-button-prev',
     },
     autoplay: {
         delay: 14000,

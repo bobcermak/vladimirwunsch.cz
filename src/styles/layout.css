@@ -271,6 +271,7 @@
 @media screen and (min-width: 961px) {
     .page__about-me-wrapper {
         margin: 0 auto;
+        margin-bottom: var(--gap-body, 5rem);
     }
 }
 

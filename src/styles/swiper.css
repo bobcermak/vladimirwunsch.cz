@@ -4,18 +4,7 @@
 
 :root {
     --swiper-theme-color: var(--blue, #3156E8);
-    --swiper-pagination-color: var(--dark-blue, #2241BD);
-    --swiper-pagination-bullet-inactive-color: var(--blue, #3156E8);
-    --swiper-pagination-bullet-inactive-opacity: 1;
-    --swiper-pagination-bullet-size: 1.25rem;
-    --swiper-pagination-bullet-horizontal-gap: .75rem;
-    --swiper-navigation-size: 3.25rem;
-}
-
-@media screen and (min-width: 961px) {
-    :root {
-        --swiper-pagination-bullet-horizontal-gap: 1.25rem;
-    }
+    --swiper-navigation-size: 1.5rem;
 }
 
 /*Swipers*/
@@ -35,9 +24,42 @@
     align-items: center;
 }
 
-.swiper-pagination {
+.swiper-button-wrapper {
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+    margin-top: 3.75rem;
+}
+
+.swiper-button-prev, .swiper-button-next {
     position: static;
-    margin-top: 1.5rem;
+    height: 2.75rem;
+    width: 2.75rem;
+}
+
+.swiper-button-prev::after {
+    content: '\f053';
+    font-family: 'Font Awesome 6 Free';
+    
+}
+
+.swiper-button-next::after {
+    content: '\f054';
+    font-family: 'Font Awesome 6 Free';
+}
+
+.swiper-button-prev::after, .swiper-button-next::after {
+    font-weight: 700;
+    background-color: var(--white, #FFFFFF);
+    border: 2px solid var(--blue, #3156E8);
+    padding: .5rem .75rem;
+    border-radius: 50%;
+    transition: background-color var(--transition, .25s ease-in-out), color var(--transition, .25s ease-in-out);
+}
+
+.swiper-button-prev:hover.swiper-button-prev::after, .swiper-button-next:hover.swiper-button-next::after {
+    background-color: var(--blue, #3156E8);
+    color: var(--white, #FFFFFF);
 }
 
 /*page__about-me - swiper*/
@@ -64,16 +86,16 @@
     border: 2px solid #3156E8;
 }
 
-@media screen and (min-width: 961px) {
-    .page__about-me-stats-content-swiper-pagination {
-        margin-bottom: var(--gap-body, 5rem);
-    }
-}
-
 /*page__my-companies - swiper*/
 
 .page__my-companies-content {
     margin-top: var(--gap-section, 2.5rem);
+}
+
+@media screen and (min-width: 961px) {
+    .page__my-companies-content-swiper-button-wrapper {
+        display: none;
+    }
 }
 
 .page__my-companies-content-swiper-slide {
