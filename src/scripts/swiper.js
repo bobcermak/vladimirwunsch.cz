@@ -1,5 +1,5 @@
 import Swiper from 'swiper';
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import { Navigation, Autoplay } from 'swiper/modules';
 //CSS
 import '/src/styles/swiper.css';
 
@@ -8,15 +8,15 @@ const swiperAboutMe = new Swiper('.page__about-me-stats-content', {
     modules: [Navigation, Autoplay],
     slidesPerView: 1,
     spaceBetween: 24,
-    loop: true,
+    // loop: true,
     navigation: {
         nextEl: '.page__about-me-stats-content-button-next',
         prevEl: '.page__about-me-stats-content-button-prev',
     },
-    autoplay: {
-        delay: 10000,
-        disableOnInteraction: true,
-    },
+    // autoplay: {
+    //     delay: 10000,
+    //     disableOnInteraction: true,
+    // },
     breakpoints: {
         641: {
             slidesPerView: 2

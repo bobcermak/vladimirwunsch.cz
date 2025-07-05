@@ -76,6 +76,13 @@
     }
 }
 
+@media screen and (min-width: 961px) {
+    .page__about-me-stats-content-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+}
+
 .page__about-me-stats-content-swiper-slide {
     border-radius: var(--border-radius, 1.5rem);
     border: 2px solid var(--dark-gray, #DEE1F4);
