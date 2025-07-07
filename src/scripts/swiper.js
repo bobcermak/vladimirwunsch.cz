@@ -8,17 +8,20 @@ const swiperAboutMe = new Swiper('.page__about-me-stats-content', {
     modules: [Navigation, Autoplay],
     slidesPerView: 1,
     spaceBetween: 24,
-    // loop: true,
     navigation: {
         nextEl: '.page__about-me-stats-content-button-next',
         prevEl: '.page__about-me-stats-content-button-prev',
     },
-    // autoplay: {
-    //     delay: 10000,
-    //     disableOnInteraction: true,
-    // },
+    autoplay: {
+        delay: 7500,
+        disableOnInteraction: true,
+    },
     breakpoints: {
+        321: {
+            loop: true,
+        },
         641: {
+            loop: false,
             slidesPerView: 2
         },
         961: {
