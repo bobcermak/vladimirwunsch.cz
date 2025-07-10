@@ -73,10 +73,24 @@
     overflow-x: hidden;
     background-color: var(--dark, #1A1A1A);
     color: var(--white, #FFFFFF);
-    min-height: 110vh;
-    min-height: 110svh;
+    min-height: 125vh;
+    min-height: 125svh;
     padding-bottom: var(--gap-section, 2.5rem);
     z-index: 1;
+}
+
+@media screen and (min-width: 441px) {
+    .page__header {
+        min-height: 150vh;
+        min-height: 150svh;
+    }
+}
+
+@media screen and (min-width: 541px) {
+    .page__header {
+        min-height: 110vh;
+        min-height: 110svh;
+    }
 }
 
 @media screen and (min-width: 961px) {
@@ -88,28 +102,30 @@
 
 .page__header-image {
     position: absolute;
-    top: 0;
+    top: 60%;
     bottom: 0;
-    right: -110%;
     left: 0;
     z-index: -1;
 }
 
-@media screen and (min-width: 361px) {
+@media screen and (min-width: 441px) {
     .page__header-image {
-        right: -100%;
-        left: 20%;
+        top: 35%;
+        right: -60%;
     }
 }
 
 @media screen and (min-width: 541px) {
     .page__header-image {
-        right: -90%;
+        top: 0;
+        left: 20%;
+        right: -60%;
     }
 }
 
 @media screen and (min-width: 641px) {
     .page__header-image {
+        top: 0;
         right: -40%;
         left: 40%;
     }
@@ -165,7 +181,8 @@
 }
 
 .page__header-hero-header-title {
-    max-width: 48.75rem;
+    max-width: 52.5rem;
+    font-size: 4.5rem;
 }
 
 @media screen and (min-width: 441px) {
