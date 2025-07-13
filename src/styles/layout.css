@@ -73,8 +73,8 @@
     overflow-x: hidden;
     background-color: var(--dark, #1A1A1A);
     color: var(--white, #FFFFFF);
-    min-height: 125vh;
-    min-height: 125svh;
+    min-height: 135vh;
+    min-height: 135svh;
     padding-bottom: var(--gap-section, 2.5rem);
     z-index: 1;
 }
@@ -102,7 +102,7 @@
 
 .page__header-image {
     position: absolute;
-    top: 60%;
+    top: 57.5%;
     bottom: 0;
     left: 0;
     z-index: -1;
@@ -726,7 +726,13 @@
 }
 
 .page__contact-logo-image {
-    width: 360px;
+    width: 240px;
+}
+
+@media screen and (min-width: 541px) {
+    .page__contact-logo-image {
+        width: 360px;
+    }
 }
 
 .page__contact-form {
