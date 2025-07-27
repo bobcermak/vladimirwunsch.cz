@@ -680,18 +680,18 @@
 
 .page__contact-information-list-item-tiktok {
     position: relative;
-    padding: .5rem;
     grid-column: 2;
     width: 1.5rem;
     height: 1.5rem;
+    padding: .5rem;
 }
 
 .page__contact-information-list-item-instagram {
     position: relative;
-    padding: .5rem;
     grid-column: 3;
     width: 1.5rem;
     height: 1.5rem;
+    padding: .5rem;
 }
 
 .page__contact-information-list-item-linkedin::after, .page__contact-information-list-item-tiktok::after, .page__contact-information-list-item-instagram::after {
