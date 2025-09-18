@@ -1,6 +1,7 @@
 import './fontawesome.js';
 import './animations.js';
 import './swiper.js';
+import './tracking.js';
 
 //page__advertisement - number and month
 function getWeekOfMonth(date = new Date()){
