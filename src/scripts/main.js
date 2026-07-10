@@ -12,18 +12,12 @@ function getWeekOfMonth(date = new Date()){
 }
 function getCandidate() {
   const startNum = 8;
-  let candidate = startNum - getWeekOfMonth();
+  const candidate = Math.min(3, Math.max(1, startNum - getWeekOfMonth()));
   switch (candidate) {
+    case 2:
+      return 'poslední 2 místa';
     case 3:
       return 'poslední 3 místa';
-    case 4:
-      return 'poslední 4 místa';
-    case 5:
-      return 'posledních 5 míst';
-    case 6:
-      return 'posledních 6 míst';
-    case 7:
-      return 'posledních 7 míst';
     default:
       return 'poslední 1 místo';
   }
