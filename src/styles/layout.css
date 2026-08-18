@@ -766,6 +766,19 @@
     }
 }
 
+.page__footer-legal {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.page__footer-address {
+    font-style: normal;
+    font-size: .875rem;
+    line-height: 1.5;
+    opacity: .85;
+}
+
 .page__footer-copyright-href {
     text-decoration: none;
     color: var(--white, #FFFFFF);
