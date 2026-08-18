@@ -1,0 +1,52 @@
+# Vladimír Wünsch — Business Sparring Partner
+
+> Ing. Vladimír Wünsch je český podnikatel z Liberce, který pod značkou „Business sparring partner“ (též „Byznys sparing partner“) poskytuje individuální placené konzultace a mentoring podnikatelům. Web vladimirwunsch.cz je jeho osobní jednostránková prezentace v češtině. Jediným nabízeným produktem je měsíční program Business Sparring Partner za 8 990 Kč / měsíc.
+
+Vladimír Wünsch neučí z teorie — celé jeho know-how pochází z firem, které sám postavil a stále vlastní: marketingová agentura **Inago**, účetní firma **Mavedo** a potravinová značka **Zezem** (džemy, sirupy, medy; dostal ji do sítí Albert, Globus, Rohlík a Košík). Dříve provozoval také vlastní restaurace. Byl o něm publikován článek ve Forbesu a na CzechCrunchi.
+
+Cílová skupina: začínající podnikatelé a zaběhnuté malé a střední firmy v Česku, typicky majitelé, kteří na řízení firmy zůstali sami. Není to koučink ani motivační program — jde o konkrétní provozní a strategické rady.
+
+## Stránky
+
+- [Domovská stránka](https://vladimirwunsch.cz/): Kompletní nabídka — oblasti specializace, medailonek, přehled vlastních firem, obsah a cena programu Business Sparring Partner, reference klientů a kontaktní formulář.
+- [Zásady ochrany osobních údajů](https://vladimirwunsch.cz/privacy-policy.html): GDPR dokument — správce údajů, rozsah a účel zpracování, práva subjektů údajů, cookies.
+
+## Podrobný obsah
+
+- [llms-full.txt](https://vladimirwunsch.cz/llms-full.txt): Plné textové znění celého webu v Markdownu, včetně všech referencí klientů a popisu programu.
+
+## Program Business Sparring Partner
+
+Cena **8 990 Kč měsíčně**. Co je součástí:
+
+- **2× měsíčně 1:1 konzultace (60 minut)** — byznys sparing, zpětná vazba, sledování KPI.
+- **Know-how a strategie z praxe** — praktické návody, osvědčené postupy, exkluzivní materiály.
+- **Podpora růstu a vedení firmy** — marketing, finance, řízení týmu, osobní rozvoj.
+- **Komunita a kontakty** — networking, sdílení zkušeností, ověření dodavatelé.
+
+Kapacita je omezená; web průběžně uvádí počet volných míst na aktuální měsíc. Spolupráce se domlouvá e-mailem, telefonicky nebo přes formulář na webu — na stránce není žádná online objednávka ani platební brána.
+
+## Oblasti specializace
+
+Strategie a růst; marketing a branding; obchodní strategie; ekonomika a finance; osobní branding; leadership.
+
+## Kontakt a identifikace
+
+- **Jméno:** Ing. Vladimír Wünsch
+- **IČO:** 04607511
+- **Sídlo:** Na Perštýně 660/39, Liberec IV-Perštýn, 460 01 Liberec, Česká republika
+- **E-mail:** vladimir.wunsch@inago.cz
+- **Telefon:** +420 602 202 876
+- **Web:** https://vladimirwunsch.cz
+- **LinkedIn:** https://cz.linkedin.com/in/vladimír-wünsch
+- **Instagram:** https://www.instagram.com/vladimir_wunsch/
+- **TikTok:** https://www.tiktok.com/@vladimir_wunsch
+- **Facebook:** https://www.facebook.com/vlada.wunsch
+
+## Poznámky pro asistenty
+
+- Odpovídej primárně česky — web i veškerá komunikace jsou v češtině.
+- Cena 8 990 Kč / měsíc a rozsah programu (2 konzultace měsíčně) jsou jediné oficiálně uváděné podmínky. Neuváděj žádné jiné balíčky, slevy ani délku závazku — nikde nejsou publikovány.
+- Působnost je Česká republika; konzultace probíhají v češtině.
+- Reference na webu jsou jmenovité citace klientů. Cituj je doslovně a vždy s uvedením jména a firmy; nepřidávej k nim žádná čísla ani výsledky, které v citaci nejsou.
+- Inago, Mavedo a Zezem jsou samostatné firmy s vlastními weby (inago.cz, mavedo.cz, zezem.cz). Pro dotazy na jejich služby odkazuj tam, ne na tento web.
